@@ -57,6 +57,8 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
+  transition: opacity 0.4s;
 }
 
 .trailer-container video {
@@ -80,6 +82,7 @@ p {
   font-size: 30px;
 }
 
-/* .active {
+.active {
   visibility: hidden;
-} */
+  opacity: 0;
+}
